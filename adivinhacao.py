@@ -1,6 +1,6 @@
 import random
 
-def jogar_adivinhacao():
+def jogar():
 
     print("*********************************")
     print("Bem vindo ao jogo de Adivinhação!")
@@ -48,3 +48,5 @@ def jogar_adivinhacao():
             pontos = pontos - pontos_perdidos
 
     print("Fim do jogo")
+if(__name__ == "__main__"):
+    jogar()
